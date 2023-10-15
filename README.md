@@ -77,3 +77,19 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+Requirements 
+
+Task: Create a page displaying Bitcoin's USD price from 3 exchanges live, with a button to refresh / reload values from the APIs.
+
+Requirements:
+
+Fetch live BTC-USD prices from:
+Coinbase: https://api.coinbase.com/v2/prices/spot?currency=USD
+Coindesk: https://api.coindesk.com/v1/bpi/currentprice.json
+Coincap: https://api.coincap.io/v2/assets
+
+Display:
+Top: List of all exchanges with their BTC-USD prices.
+Bottom: Highlight the exchanges with the highest and lowest prices.
+Bonus: Optimize UI/UX with a clean layout, use of colors to represent high and low price, and tables.
